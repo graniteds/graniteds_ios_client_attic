@@ -29,3 +29,8 @@ There will be available in a separated package.
 * Status:
 
 Alpha / Work in progress.
+
+* Disclaimer:
+
+Part of this library relies on the CocoaAMF project (https://github.com/nesium/cocoa-amf)
+originally written by Marc Bauer and released under the terms of the MIT license.
