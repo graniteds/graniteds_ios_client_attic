@@ -59,6 +59,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF2BC4F2139FDB3800D3E0BF /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		DF2BC4F4139FDCFD00D3E0BF /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DF2BC4FB139FE0F800D3E0BF /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		DF31E185139FCA510020D7F2 /* AMF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMF.h; path = graniteds_ios_client/AMF.h; sourceTree = SOURCE_ROOT; };
 		DF31E186139FCA510020D7F2 /* AMF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMF.m; path = graniteds_ios_client/AMF.m; sourceTree = SOURCE_ROOT; };
 		DF31E187139FCA510020D7F2 /* AMFActionMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMFActionMessage.h; path = graniteds_ios_client/AMFActionMessage.h; sourceTree = SOURCE_ROOT; };
@@ -161,6 +164,9 @@
 		DF33348D135E0FEB00B6FAC8 = {
 			isa = PBXGroup;
 			children = (
+				DF2BC4F4139FDCFD00D3E0BF /* .gitignore */,
+				DF2BC4FB139FE0F800D3E0BF /* LICENSE.txt */,
+				DF2BC4F2139FDB3800D3E0BF /* README.txt */,
 				DF33349D135E0FEB00B6FAC8 /* graniteds_ios_client */,
 				DF33349A135E0FEB00B6FAC8 /* Frameworks */,
 				DF333499135E0FEB00B6FAC8 /* Products */,
@@ -190,8 +196,7 @@
 				DF71EB941369CAA80029C86D /* GraniteDS */,
 				DF33349E135E0FEB00B6FAC8 /* Supporting Files */,
 			);
-			name = graniteds_ios_client;
-			path = "graniteds_ios_client";
+			path = graniteds_ios_client;
 			sourceTree = "<group>";
 		};
 		DF33349E135E0FEB00B6FAC8 /* Supporting Files */ = {
@@ -385,7 +390,7 @@
 			dependencies = (
 			);
 			name = graniteds_ios_client;
-			productName = "graniteds_ios_client";
+			productName = graniteds_ios_client;
 			productReference = DF333498135E0FEB00B6FAC8 /* libgraniteds_ios_client.a */;
 			productType = "com.apple.product-type.library.static";
 		};
