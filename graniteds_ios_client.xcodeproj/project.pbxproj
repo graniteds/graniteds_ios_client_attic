@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF31E18D139FCA510020D7F2 /* AMF.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E185139FCA510020D7F2 /* AMF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E18E139FCA510020D7F2 /* AMF.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31E186139FCA510020D7F2 /* AMF.m */; };
+		DF31E18F139FCA510020D7F2 /* AMFActionMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E187139FCA510020D7F2 /* AMFActionMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E190139FCA510020D7F2 /* AMFActionMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31E188139FCA510020D7F2 /* AMFActionMessage.m */; };
+		DF31E191139FCA510020D7F2 /* AMFArchiver.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E189139FCA510020D7F2 /* AMFArchiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E192139FCA510020D7F2 /* AMFArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31E18A139FCA510020D7F2 /* AMFArchiver.m */; };
+		DF31E193139FCA510020D7F2 /* AMFUnarchiver.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E18B139FCA510020D7F2 /* AMFUnarchiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E194139FCA510020D7F2 /* AMFUnarchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31E18C139FCA510020D7F2 /* AMFUnarchiver.m */; };
+		DF31E197139FCA760020D7F2 /* AMFDebugUnarchiver.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E195139FCA760020D7F2 /* AMFDebugUnarchiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E198139FCA760020D7F2 /* AMFDebugUnarchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31E196139FCA760020D7F2 /* AMFDebugUnarchiver.m */; };
+		DF31E19D139FCA930020D7F2 /* ASObject.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E199139FCA930020D7F2 /* ASObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E19E139FCA930020D7F2 /* ASObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31E19A139FCA930020D7F2 /* ASObject.m */; };
+		DF31E19F139FCA930020D7F2 /* FlexDataTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E19B139FCA930020D7F2 /* FlexDataTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E1A0139FCA930020D7F2 /* FlexDataTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31E19C139FCA930020D7F2 /* FlexDataTypes.m */; };
+		DF31E1A7139FCAB70020D7F2 /* NSInvocation-AMFExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E1A1139FCAB70020D7F2 /* NSInvocation-AMFExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E1A8139FCAB70020D7F2 /* NSInvocation-AMFExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31E1A2139FCAB70020D7F2 /* NSInvocation-AMFExtensions.m */; };
+		DF31E1A9139FCAB70020D7F2 /* NSObject-AMFExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E1A3139FCAB70020D7F2 /* NSObject-AMFExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E1AA139FCAB70020D7F2 /* NSObject-AMFExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31E1A4139FCAB70020D7F2 /* NSObject-AMFExtensions.m */; };
+		DF31E1AB139FCAB70020D7F2 /* NSObject-iPhoneExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E1A5139FCAB70020D7F2 /* NSObject-iPhoneExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E1AC139FCAB70020D7F2 /* NSObject-iPhoneExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31E1A6139FCAB70020D7F2 /* NSObject-iPhoneExtensions.m */; };
+		DF31E1AE139FCAD10020D7F2 /* GraniteDS.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E1AD139FCAD10020D7F2 /* GraniteDS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E1B1139FCAF00020D7F2 /* GDSPersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E1AF139FCAF00020D7F2 /* GDSPersistence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E1B2139FCAF00020D7F2 /* GDSPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31E1B0139FCAF00020D7F2 /* GDSPersistence.m */; };
+		DF31E1B5139FCB140020D7F2 /* AMFMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E1B3139FCB140020D7F2 /* AMFMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E1B6139FCB140020D7F2 /* AMFMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31E1B4139FCB140020D7F2 /* AMFMessages.m */; };
+		DF31E1BB139FCB2D0020D7F2 /* GDSChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E1B7139FCB2D0020D7F2 /* GDSChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E1BC139FCB2D0020D7F2 /* GDSChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31E1B8139FCB2D0020D7F2 /* GDSChannel.m */; };
+		DF31E1BD139FCB2D0020D7F2 /* GDSChannelNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E1B9139FCB2D0020D7F2 /* GDSChannelNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E1BE139FCB2D0020D7F2 /* GDSChannelNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31E1BA139FCB2D0020D7F2 /* GDSChannelNotification.m */; };
+		DF31E1C3139FCB6A0020D7F2 /* GDSAsyncResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E1BF139FCB6A0020D7F2 /* GDSAsyncResponder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E1C4139FCB6A0020D7F2 /* GDSAsyncResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31E1C0139FCB6A0020D7F2 /* GDSAsyncResponder.m */; };
+		DF31E1C5139FCB6A0020D7F2 /* GDSAsyncToken.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E1C1139FCB6A0020D7F2 /* GDSAsyncToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E1C6139FCB6A0020D7F2 /* GDSAsyncToken.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31E1C2139FCB6A0020D7F2 /* GDSAsyncToken.m */; };
+		DF31E1CD139FCB990020D7F2 /* GDSAbstractEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E1C7139FCB990020D7F2 /* GDSAbstractEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E1CE139FCB990020D7F2 /* GDSAbstractEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31E1C8139FCB990020D7F2 /* GDSAbstractEvent.m */; };
+		DF31E1CF139FCB990020D7F2 /* GDSFaultEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E1C9139FCB990020D7F2 /* GDSFaultEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E1D0139FCB990020D7F2 /* GDSFaultEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31E1CA139FCB990020D7F2 /* GDSFaultEvent.m */; };
+		DF31E1D1139FCB990020D7F2 /* GDSResultEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E1CB139FCB990020D7F2 /* GDSResultEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E1D2139FCB990020D7F2 /* GDSResultEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31E1CC139FCB990020D7F2 /* GDSResultEvent.m */; };
+		DF31E1D5139FCBB20020D7F2 /* GDSRemoteObject.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E1D3139FCBB20020D7F2 /* GDSRemoteObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E1D6139FCBB20020D7F2 /* GDSRemoteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31E1D4139FCBB20020D7F2 /* GDSRemoteObject.m */; };
+		DF31E1DE139FCBEA0020D7F2 /* GDSConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E1D7139FCBEA0020D7F2 /* GDSConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E1DF139FCBEA0020D7F2 /* GDSConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31E1D8139FCBEA0020D7F2 /* GDSConfiguration.m */; };
+		DF31E1E0139FCBEA0020D7F2 /* GDSRemoteProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E1D9139FCBEA0020D7F2 /* GDSRemoteProtocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E1E1139FCBEA0020D7F2 /* GDSUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E1DA139FCBEA0020D7F2 /* GDSUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E1E2139FCBEA0020D7F2 /* GDSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31E1DB139FCBEA0020D7F2 /* GDSUtil.m */; };
+		DF31E1E3139FCBEA0020D7F2 /* GDSXAMFRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = DF31E1DC139FCBEA0020D7F2 /* GDSXAMFRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF31E1E4139FCBEA0020D7F2 /* GDSXAMFRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31E1DD139FCBEA0020D7F2 /* GDSXAMFRequest.m */; };
+		DF33349C135E0FEB00B6FAC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF33349B135E0FEB00B6FAC8 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF31E185139FCA510020D7F2 /* AMF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMF.h; path = graniteds_ios_client/AMF.h; sourceTree = SOURCE_ROOT; };
+		DF31E186139FCA510020D7F2 /* AMF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMF.m; path = graniteds_ios_client/AMF.m; sourceTree = SOURCE_ROOT; };
+		DF31E187139FCA510020D7F2 /* AMFActionMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMFActionMessage.h; path = graniteds_ios_client/AMFActionMessage.h; sourceTree = SOURCE_ROOT; };
+		DF31E188139FCA510020D7F2 /* AMFActionMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMFActionMessage.m; path = graniteds_ios_client/AMFActionMessage.m; sourceTree = SOURCE_ROOT; };
+		DF31E189139FCA510020D7F2 /* AMFArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMFArchiver.h; path = graniteds_ios_client/AMFArchiver.h; sourceTree = SOURCE_ROOT; };
+		DF31E18A139FCA510020D7F2 /* AMFArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMFArchiver.m; path = graniteds_ios_client/AMFArchiver.m; sourceTree = SOURCE_ROOT; };
+		DF31E18B139FCA510020D7F2 /* AMFUnarchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMFUnarchiver.h; path = graniteds_ios_client/AMFUnarchiver.h; sourceTree = SOURCE_ROOT; };
+		DF31E18C139FCA510020D7F2 /* AMFUnarchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMFUnarchiver.m; path = graniteds_ios_client/AMFUnarchiver.m; sourceTree = SOURCE_ROOT; };
+		DF31E195139FCA760020D7F2 /* AMFDebugUnarchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMFDebugUnarchiver.h; path = graniteds_ios_client/AMFDebugUnarchiver.h; sourceTree = SOURCE_ROOT; };
+		DF31E196139FCA760020D7F2 /* AMFDebugUnarchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMFDebugUnarchiver.m; path = graniteds_ios_client/AMFDebugUnarchiver.m; sourceTree = SOURCE_ROOT; };
+		DF31E199139FCA930020D7F2 /* ASObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASObject.h; path = graniteds_ios_client/ASObject.h; sourceTree = SOURCE_ROOT; };
+		DF31E19A139FCA930020D7F2 /* ASObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASObject.m; path = graniteds_ios_client/ASObject.m; sourceTree = SOURCE_ROOT; };
+		DF31E19B139FCA930020D7F2 /* FlexDataTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlexDataTypes.h; path = graniteds_ios_client/FlexDataTypes.h; sourceTree = SOURCE_ROOT; };
+		DF31E19C139FCA930020D7F2 /* FlexDataTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlexDataTypes.m; path = graniteds_ios_client/FlexDataTypes.m; sourceTree = SOURCE_ROOT; };
+		DF31E1A1139FCAB70020D7F2 /* NSInvocation-AMFExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSInvocation-AMFExtensions.h"; path = "graniteds_ios_client/NSInvocation-AMFExtensions.h"; sourceTree = SOURCE_ROOT; };
+		DF31E1A2139FCAB70020D7F2 /* NSInvocation-AMFExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation-AMFExtensions.m"; path = "graniteds_ios_client/NSInvocation-AMFExtensions.m"; sourceTree = SOURCE_ROOT; };
+		DF31E1A3139FCAB70020D7F2 /* NSObject-AMFExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject-AMFExtensions.h"; path = "graniteds_ios_client/NSObject-AMFExtensions.h"; sourceTree = SOURCE_ROOT; };
+		DF31E1A4139FCAB70020D7F2 /* NSObject-AMFExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject-AMFExtensions.m"; path = "graniteds_ios_client/NSObject-AMFExtensions.m"; sourceTree = SOURCE_ROOT; };
+		DF31E1A5139FCAB70020D7F2 /* NSObject-iPhoneExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject-iPhoneExtensions.h"; path = "graniteds_ios_client/NSObject-iPhoneExtensions.h"; sourceTree = SOURCE_ROOT; };
+		DF31E1A6139FCAB70020D7F2 /* NSObject-iPhoneExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject-iPhoneExtensions.m"; path = "graniteds_ios_client/NSObject-iPhoneExtensions.m"; sourceTree = SOURCE_ROOT; };
+		DF31E1AD139FCAD10020D7F2 /* GraniteDS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraniteDS.h; path = graniteds_ios_client/GraniteDS.h; sourceTree = SOURCE_ROOT; };
+		DF31E1AF139FCAF00020D7F2 /* GDSPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDSPersistence.h; path = graniteds_ios_client/GDSPersistence.h; sourceTree = SOURCE_ROOT; };
+		DF31E1B0139FCAF00020D7F2 /* GDSPersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDSPersistence.m; path = graniteds_ios_client/GDSPersistence.m; sourceTree = SOURCE_ROOT; };
+		DF31E1B3139FCB140020D7F2 /* AMFMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMFMessages.h; path = graniteds_ios_client/AMFMessages.h; sourceTree = SOURCE_ROOT; };
+		DF31E1B4139FCB140020D7F2 /* AMFMessages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMFMessages.m; path = graniteds_ios_client/AMFMessages.m; sourceTree = SOURCE_ROOT; };
+		DF31E1B7139FCB2D0020D7F2 /* GDSChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDSChannel.h; path = graniteds_ios_client/GDSChannel.h; sourceTree = SOURCE_ROOT; };
+		DF31E1B8139FCB2D0020D7F2 /* GDSChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDSChannel.m; path = graniteds_ios_client/GDSChannel.m; sourceTree = SOURCE_ROOT; };
+		DF31E1B9139FCB2D0020D7F2 /* GDSChannelNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDSChannelNotification.h; path = graniteds_ios_client/GDSChannelNotification.h; sourceTree = SOURCE_ROOT; };
+		DF31E1BA139FCB2D0020D7F2 /* GDSChannelNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDSChannelNotification.m; path = graniteds_ios_client/GDSChannelNotification.m; sourceTree = SOURCE_ROOT; };
+		DF31E1BF139FCB6A0020D7F2 /* GDSAsyncResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDSAsyncResponder.h; path = graniteds_ios_client/GDSAsyncResponder.h; sourceTree = SOURCE_ROOT; };
+		DF31E1C0139FCB6A0020D7F2 /* GDSAsyncResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDSAsyncResponder.m; path = graniteds_ios_client/GDSAsyncResponder.m; sourceTree = SOURCE_ROOT; };
+		DF31E1C1139FCB6A0020D7F2 /* GDSAsyncToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDSAsyncToken.h; path = graniteds_ios_client/GDSAsyncToken.h; sourceTree = SOURCE_ROOT; };
+		DF31E1C2139FCB6A0020D7F2 /* GDSAsyncToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDSAsyncToken.m; path = graniteds_ios_client/GDSAsyncToken.m; sourceTree = SOURCE_ROOT; };
+		DF31E1C7139FCB990020D7F2 /* GDSAbstractEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDSAbstractEvent.h; path = graniteds_ios_client/GDSAbstractEvent.h; sourceTree = SOURCE_ROOT; };
+		DF31E1C8139FCB990020D7F2 /* GDSAbstractEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDSAbstractEvent.m; path = graniteds_ios_client/GDSAbstractEvent.m; sourceTree = SOURCE_ROOT; };
+		DF31E1C9139FCB990020D7F2 /* GDSFaultEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDSFaultEvent.h; path = graniteds_ios_client/GDSFaultEvent.h; sourceTree = SOURCE_ROOT; };
+		DF31E1CA139FCB990020D7F2 /* GDSFaultEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDSFaultEvent.m; path = graniteds_ios_client/GDSFaultEvent.m; sourceTree = SOURCE_ROOT; };
+		DF31E1CB139FCB990020D7F2 /* GDSResultEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDSResultEvent.h; path = graniteds_ios_client/GDSResultEvent.h; sourceTree = SOURCE_ROOT; };
+		DF31E1CC139FCB990020D7F2 /* GDSResultEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDSResultEvent.m; path = graniteds_ios_client/GDSResultEvent.m; sourceTree = SOURCE_ROOT; };
+		DF31E1D3139FCBB20020D7F2 /* GDSRemoteObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDSRemoteObject.h; path = graniteds_ios_client/GDSRemoteObject.h; sourceTree = SOURCE_ROOT; };
+		DF31E1D4139FCBB20020D7F2 /* GDSRemoteObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDSRemoteObject.m; path = graniteds_ios_client/GDSRemoteObject.m; sourceTree = SOURCE_ROOT; };
+		DF31E1D7139FCBEA0020D7F2 /* GDSConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDSConfiguration.h; path = graniteds_ios_client/GDSConfiguration.h; sourceTree = SOURCE_ROOT; };
+		DF31E1D8139FCBEA0020D7F2 /* GDSConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDSConfiguration.m; path = graniteds_ios_client/GDSConfiguration.m; sourceTree = SOURCE_ROOT; };
+		DF31E1D9139FCBEA0020D7F2 /* GDSRemoteProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDSRemoteProtocols.h; path = graniteds_ios_client/GDSRemoteProtocols.h; sourceTree = SOURCE_ROOT; };
+		DF31E1DA139FCBEA0020D7F2 /* GDSUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDSUtil.h; path = graniteds_ios_client/GDSUtil.h; sourceTree = SOURCE_ROOT; };
+		DF31E1DB139FCBEA0020D7F2 /* GDSUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDSUtil.m; path = graniteds_ios_client/GDSUtil.m; sourceTree = SOURCE_ROOT; };
+		DF31E1DC139FCBEA0020D7F2 /* GDSXAMFRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDSXAMFRequest.h; path = graniteds_ios_client/GDSXAMFRequest.h; sourceTree = SOURCE_ROOT; };
+		DF31E1DD139FCBEA0020D7F2 /* GDSXAMFRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDSXAMFRequest.m; path = graniteds_ios_client/GDSXAMFRequest.m; sourceTree = SOURCE_ROOT; };
+		DF333498135E0FEB00B6FAC8 /* libgraniteds_ios_client.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libgraniteds_ios_client.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF33349B135E0FEB00B6FAC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF33349F135E0FEB00B6FAC8 /* graniteds_ios_client-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "graniteds_ios_client-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF333495135E0FEB00B6FAC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF33349C135E0FEB00B6FAC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF0D86D5138D71B90036F1F3 /* AMF */ = {
+			isa = PBXGroup;
+			children = (
+				DF0D86D8138D732F0036F1F3 /* Messages */,
+				DF0D86D7138D731B0036F1F3 /* IO */,
+			);
+			name = AMF;
+			sourceTree = "<group>";
+		};
+		DF0D86D7138D731B0036F1F3 /* IO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = IO;
+			sourceTree = "<group>";
+		};
+		DF0D86D8138D732F0036F1F3 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				DF31E1B3139FCB140020D7F2 /* AMFMessages.h */,
+				DF31E1B4139FCB140020D7F2 /* AMFMessages.m */,
+			);
+			name = Messages;
+			sourceTree = "<group>";
+		};
+		DF160881139830CD0001330E /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				DF31E1AF139FCAF00020D7F2 /* GDSPersistence.h */,
+				DF31E1B0139FCAF00020D7F2 /* GDSPersistence.m */,
+			);
+			name = Persistence;
+			sourceTree = "<group>";
+		};
+		DF33348D135E0FEB00B6FAC8 = {
+			isa = PBXGroup;
+			children = (
+				DF33349D135E0FEB00B6FAC8 /* graniteds_ios_client */,
+				DF33349A135E0FEB00B6FAC8 /* Frameworks */,
+				DF333499135E0FEB00B6FAC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF333499135E0FEB00B6FAC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF333498135E0FEB00B6FAC8 /* libgraniteds_ios_client.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF33349A135E0FEB00B6FAC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF33349B135E0FEB00B6FAC8 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF33349D135E0FEB00B6FAC8 /* graniteds_ios_client */ = {
+			isa = PBXGroup;
+			children = (
+				DF71EB871369C9610029C86D /* CocoaAMF */,
+				DF71EB941369CAA80029C86D /* GraniteDS */,
+				DF33349E135E0FEB00B6FAC8 /* Supporting Files */,
+			);
+			name = graniteds_ios_client;
+			path = "graniteds_ios_client";
+			sourceTree = "<group>";
+		};
+		DF33349E135E0FEB00B6FAC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF33349F135E0FEB00B6FAC8 /* graniteds_ios_client-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF71EB871369C9610029C86D /* CocoaAMF */ = {
+			isa = PBXGroup;
+			children = (
+				DF71EB901369C9AE0029C86D /* Core */,
+				DF71EB911369C9F10029C86D /* Debug */,
+				DF71EB921369CA100029C86D /* Datatypes */,
+				DF71EB931369CA2C0029C86D /* Categories */,
+			);
+			name = CocoaAMF;
+			sourceTree = "<group>";
+		};
+		DF71EB901369C9AE0029C86D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DF31E185139FCA510020D7F2 /* AMF.h */,
+				DF31E186139FCA510020D7F2 /* AMF.m */,
+				DF31E187139FCA510020D7F2 /* AMFActionMessage.h */,
+				DF31E188139FCA510020D7F2 /* AMFActionMessage.m */,
+				DF31E189139FCA510020D7F2 /* AMFArchiver.h */,
+				DF31E18A139FCA510020D7F2 /* AMFArchiver.m */,
+				DF31E18B139FCA510020D7F2 /* AMFUnarchiver.h */,
+				DF31E18C139FCA510020D7F2 /* AMFUnarchiver.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		DF71EB911369C9F10029C86D /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				DF31E195139FCA760020D7F2 /* AMFDebugUnarchiver.h */,
+				DF31E196139FCA760020D7F2 /* AMFDebugUnarchiver.m */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+		DF71EB921369CA100029C86D /* Datatypes */ = {
+			isa = PBXGroup;
+			children = (
+				DF31E199139FCA930020D7F2 /* ASObject.h */,
+				DF31E19A139FCA930020D7F2 /* ASObject.m */,
+				DF31E19B139FCA930020D7F2 /* FlexDataTypes.h */,
+				DF31E19C139FCA930020D7F2 /* FlexDataTypes.m */,
+			);
+			name = Datatypes;
+			sourceTree = "<group>";
+		};
+		DF71EB931369CA2C0029C86D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				DF31E1A1139FCAB70020D7F2 /* NSInvocation-AMFExtensions.h */,
+				DF31E1A2139FCAB70020D7F2 /* NSInvocation-AMFExtensions.m */,
+				DF31E1A3139FCAB70020D7F2 /* NSObject-AMFExtensions.h */,
+				DF31E1A4139FCAB70020D7F2 /* NSObject-AMFExtensions.m */,
+				DF31E1A5139FCAB70020D7F2 /* NSObject-iPhoneExtensions.h */,
+				DF31E1A6139FCAB70020D7F2 /* NSObject-iPhoneExtensions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		DF71EB941369CAA80029C86D /* GraniteDS */ = {
+			isa = PBXGroup;
+			children = (
+				DF31E1AD139FCAD10020D7F2 /* GraniteDS.h */,
+				DF160881139830CD0001330E /* Persistence */,
+				DF71EB991369D3A00029C86D /* Messaging */,
+				DF71EB9A1369D3C20029C86D /* RPC */,
+				DF90A5D9138049FB00078817 /* Util */,
+			);
+			name = GraniteDS;
+			sourceTree = "<group>";
+		};
+		DF71EB991369D3A00029C86D /* Messaging */ = {
+			isa = PBXGroup;
+			children = (
+				DF0D86D5138D71B90036F1F3 /* AMF */,
+				DF31E1B7139FCB2D0020D7F2 /* GDSChannel.h */,
+				DF31E1B8139FCB2D0020D7F2 /* GDSChannel.m */,
+				DF31E1B9139FCB2D0020D7F2 /* GDSChannelNotification.h */,
+				DF31E1BA139FCB2D0020D7F2 /* GDSChannelNotification.m */,
+			);
+			name = Messaging;
+			sourceTree = "<group>";
+		};
+		DF71EB9A1369D3C20029C86D /* RPC */ = {
+			isa = PBXGroup;
+			children = (
+				DF71EB9D1369D4AB0029C86D /* Events */,
+				DFAFB10B1371C67600604C69 /* Remoting */,
+				DF31E1BF139FCB6A0020D7F2 /* GDSAsyncResponder.h */,
+				DF31E1C0139FCB6A0020D7F2 /* GDSAsyncResponder.m */,
+				DF31E1C1139FCB6A0020D7F2 /* GDSAsyncToken.h */,
+				DF31E1C2139FCB6A0020D7F2 /* GDSAsyncToken.m */,
+			);
+			name = RPC;
+			sourceTree = "<group>";
+		};
+		DF71EB9D1369D4AB0029C86D /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				DF31E1C7139FCB990020D7F2 /* GDSAbstractEvent.h */,
+				DF31E1C8139FCB990020D7F2 /* GDSAbstractEvent.m */,
+				DF31E1C9139FCB990020D7F2 /* GDSFaultEvent.h */,
+				DF31E1CA139FCB990020D7F2 /* GDSFaultEvent.m */,
+				DF31E1CB139FCB990020D7F2 /* GDSResultEvent.h */,
+				DF31E1CC139FCB990020D7F2 /* GDSResultEvent.m */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		DF90A5D9138049FB00078817 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DF31E1D7139FCBEA0020D7F2 /* GDSConfiguration.h */,
+				DF31E1D8139FCBEA0020D7F2 /* GDSConfiguration.m */,
+				DF31E1D9139FCBEA0020D7F2 /* GDSRemoteProtocols.h */,
+				DF31E1DA139FCBEA0020D7F2 /* GDSUtil.h */,
+				DF31E1DB139FCBEA0020D7F2 /* GDSUtil.m */,
+				DF31E1DC139FCBEA0020D7F2 /* GDSXAMFRequest.h */,
+				DF31E1DD139FCBEA0020D7F2 /* GDSXAMFRequest.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		DFAFB10B1371C67600604C69 /* Remoting */ = {
+			isa = PBXGroup;
+			children = (
+				DF31E1D3139FCBB20020D7F2 /* GDSRemoteObject.h */,
+				DF31E1D4139FCBB20020D7F2 /* GDSRemoteObject.m */,
+			);
+			name = Remoting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DF333496135E0FEB00B6FAC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF31E18D139FCA510020D7F2 /* AMF.h in Headers */,
+				DF31E18F139FCA510020D7F2 /* AMFActionMessage.h in Headers */,
+				DF31E191139FCA510020D7F2 /* AMFArchiver.h in Headers */,
+				DF31E193139FCA510020D7F2 /* AMFUnarchiver.h in Headers */,
+				DF31E197139FCA760020D7F2 /* AMFDebugUnarchiver.h in Headers */,
+				DF31E19D139FCA930020D7F2 /* ASObject.h in Headers */,
+				DF31E19F139FCA930020D7F2 /* FlexDataTypes.h in Headers */,
+				DF31E1A7139FCAB70020D7F2 /* NSInvocation-AMFExtensions.h in Headers */,
+				DF31E1A9139FCAB70020D7F2 /* NSObject-AMFExtensions.h in Headers */,
+				DF31E1AB139FCAB70020D7F2 /* NSObject-iPhoneExtensions.h in Headers */,
+				DF31E1AE139FCAD10020D7F2 /* GraniteDS.h in Headers */,
+				DF31E1B1139FCAF00020D7F2 /* GDSPersistence.h in Headers */,
+				DF31E1B5139FCB140020D7F2 /* AMFMessages.h in Headers */,
+				DF31E1BB139FCB2D0020D7F2 /* GDSChannel.h in Headers */,
+				DF31E1BD139FCB2D0020D7F2 /* GDSChannelNotification.h in Headers */,
+				DF31E1C3139FCB6A0020D7F2 /* GDSAsyncResponder.h in Headers */,
+				DF31E1C5139FCB6A0020D7F2 /* GDSAsyncToken.h in Headers */,
+				DF31E1CD139FCB990020D7F2 /* GDSAbstractEvent.h in Headers */,
+				DF31E1CF139FCB990020D7F2 /* GDSFaultEvent.h in Headers */,
+				DF31E1D1139FCB990020D7F2 /* GDSResultEvent.h in Headers */,
+				DF31E1D5139FCBB20020D7F2 /* GDSRemoteObject.h in Headers */,
+				DF31E1DE139FCBEA0020D7F2 /* GDSConfiguration.h in Headers */,
+				DF31E1E0139FCBEA0020D7F2 /* GDSRemoteProtocols.h in Headers */,
+				DF31E1E1139FCBEA0020D7F2 /* GDSUtil.h in Headers */,
+				DF31E1E3139FCBEA0020D7F2 /* GDSXAMFRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DF333497135E0FEB00B6FAC8 /* graniteds_ios_client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3334A2135E0FEB00B6FAC8 /* Build configuration list for PBXNativeTarget "graniteds_ios_client" */;
+			buildPhases = (
+				DF333494135E0FEB00B6FAC8 /* Sources */,
+				DF333495135E0FEB00B6FAC8 /* Frameworks */,
+				DF333496135E0FEB00B6FAC8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = graniteds_ios_client;
+			productName = "graniteds_ios_client";
+			productReference = DF333498135E0FEB00B6FAC8 /* libgraniteds_ios_client.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF33348F135E0FEB00B6FAC8 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DF333492135E0FEB00B6FAC8 /* Build configuration list for PBXProject "graniteds_ios_client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF33348D135E0FEB00B6FAC8;
+			productRefGroup = DF333499135E0FEB00B6FAC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF333497135E0FEB00B6FAC8 /* graniteds_ios_client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF333494135E0FEB00B6FAC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF31E18E139FCA510020D7F2 /* AMF.m in Sources */,
+				DF31E190139FCA510020D7F2 /* AMFActionMessage.m in Sources */,
+				DF31E192139FCA510020D7F2 /* AMFArchiver.m in Sources */,
+				DF31E194139FCA510020D7F2 /* AMFUnarchiver.m in Sources */,
+				DF31E198139FCA760020D7F2 /* AMFDebugUnarchiver.m in Sources */,
+				DF31E19E139FCA930020D7F2 /* ASObject.m in Sources */,
+				DF31E1A0139FCA930020D7F2 /* FlexDataTypes.m in Sources */,
+				DF31E1A8139FCAB70020D7F2 /* NSInvocation-AMFExtensions.m in Sources */,
+				DF31E1AA139FCAB70020D7F2 /* NSObject-AMFExtensions.m in Sources */,
+				DF31E1AC139FCAB70020D7F2 /* NSObject-iPhoneExtensions.m in Sources */,
+				DF31E1B2139FCAF00020D7F2 /* GDSPersistence.m in Sources */,
+				DF31E1B6139FCB140020D7F2 /* AMFMessages.m in Sources */,
+				DF31E1BC139FCB2D0020D7F2 /* GDSChannel.m in Sources */,
+				DF31E1BE139FCB2D0020D7F2 /* GDSChannelNotification.m in Sources */,
+				DF31E1C4139FCB6A0020D7F2 /* GDSAsyncResponder.m in Sources */,
+				DF31E1C6139FCB6A0020D7F2 /* GDSAsyncToken.m in Sources */,
+				DF31E1CE139FCB990020D7F2 /* GDSAbstractEvent.m in Sources */,
+				DF31E1D0139FCB990020D7F2 /* GDSFaultEvent.m in Sources */,
+				DF31E1D2139FCB990020D7F2 /* GDSResultEvent.m in Sources */,
+				DF31E1D6139FCBB20020D7F2 /* GDSRemoteObject.m in Sources */,
+				DF31E1DF139FCBEA0020D7F2 /* GDSConfiguration.m in Sources */,
+				DF31E1E2139FCBEA0020D7F2 /* GDSUtil.m in Sources */,
+				DF31E1E4139FCBEA0020D7F2 /* GDSXAMFRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF3334A0135E0FEB00B6FAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF3334A1135E0FEB00B6FAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		DF3334A3135E0FEB00B6FAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/graniteds_ios_client.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "graniteds_ios_client/graniteds_ios_client-Prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = graniteds_ios_client;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DF3334A4135E0FEB00B6FAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/graniteds_ios_client.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "graniteds_ios_client/graniteds_ios_client-Prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = graniteds_ios_client;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF333492135E0FEB00B6FAC8 /* Build configuration list for PBXProject "graniteds_ios_client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3334A0135E0FEB00B6FAC8 /* Debug */,
+				DF3334A1135E0FEB00B6FAC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3334A2135E0FEB00B6FAC8 /* Build configuration list for PBXNativeTarget "graniteds_ios_client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3334A3135E0FEB00B6FAC8 /* Debug */,
+				DF3334A4135E0FEB00B6FAC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF33348F135E0FEB00B6FAC8 /* Project object */;
+}
